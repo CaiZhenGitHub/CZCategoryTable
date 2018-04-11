@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YFJNewSortVc.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    YFJNewSortVc *tabBarVc = [[YFJNewSortVc alloc]init];
+    tabBarVc.view.backgroundColor = YFJBgColor;
+    self.window.rootViewController = tabBarVc;
+    
     return YES;
 }
 

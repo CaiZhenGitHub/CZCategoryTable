@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680B4A433422DF2BACDBFF82 /* libPods-CzCategoryTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B43461F7E8DD0B7D202E7E0E /* libPods-CzCategoryTable.a */; };
+		ED032EC7207DDB200096106F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED032EC5207DDB1F0096106F /* UIView+Frame.m */; };
+		ED032ECA207DDB7F0096106F /* UIButton+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = ED032EC9207DDB7F0096106F /* UIButton+EXT.m */; };
 		EDDC884F2071FC5A00B11661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC884E2071FC5A00B11661 /* AppDelegate.m */; };
 		EDDC88522071FC5A00B11661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88512071FC5A00B11661 /* ViewController.m */; };
 		EDDC88552071FC5A00B11661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDC88532071FC5A00B11661 /* Main.storyboard */; };
@@ -16,6 +19,23 @@
 		EDDC88602071FC5A00B11661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC885F2071FC5A00B11661 /* main.m */; };
 		EDDC886A2071FC5B00B11661 /* CzCategoryTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88692071FC5B00B11661 /* CzCategoryTableTests.m */; };
 		EDDC88752071FC5B00B11661 /* CzCategoryTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88742071FC5B00B11661 /* CzCategoryTableUITests.m */; };
+		EDDC889F2071FD2100B11661 /* YFJNewBrandListVc.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88852071FD2100B11661 /* YFJNewBrandListVc.m */; };
+		EDDC88A02071FD2100B11661 /* YFJNewBrandListVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC88862071FD2100B11661 /* YFJNewBrandListVc.xib */; };
+		EDDC88A12071FD2100B11661 /* YFJNewCategoryVc.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88882071FD2100B11661 /* YFJNewCategoryVc.m */; };
+		EDDC88A22071FD2100B11661 /* YFJNewCategoryVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC88892071FD2100B11661 /* YFJNewCategoryVc.xib */; };
+		EDDC88A32071FD2100B11661 /* YFJNewSortVc.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC888B2071FD2100B11661 /* YFJNewSortVc.m */; };
+		EDDC88A42071FD2100B11661 /* YFJNewSortVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC888C2071FD2100B11661 /* YFJNewSortVc.xib */; };
+		EDDC88A52071FD2100B11661 /* MJNIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88902071FD2100B11661 /* MJNIndexView.m */; };
+		EDDC88A62071FD2100B11661 /* YFJNewBrandHeadListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88922071FD2100B11661 /* YFJNewBrandHeadListCell.m */; };
+		EDDC88A72071FD2100B11661 /* YFJNewBrandListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88942071FD2100B11661 /* YFJNewBrandListCell.m */; };
+		EDDC88A82071FD2100B11661 /* YFJNewBrandListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88962071FD2100B11661 /* YFJNewBrandListCollectionCell.m */; };
+		EDDC88A92071FD2100B11661 /* YFJNewBrandSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88982071FD2100B11661 /* YFJNewBrandSectionHeadView.m */; };
+		EDDC88AA2071FD2100B11661 /* YFJNewCategoryCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC889A2071FD2100B11661 /* YFJNewCategoryCollectionCell.m */; };
+		EDDC88AB2071FD2100B11661 /* YFJNewCategoryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC889B2071FD2100B11661 /* YFJNewCategoryCollectionCell.xib */; };
+		EDDC88AC2071FD2100B11661 /* YFJNewCategoryHeadReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC889D2071FD2100B11661 /* YFJNewCategoryHeadReusableView.m */; };
+		EDDC88AD2071FD2100B11661 /* YFJNewCategoryHeadReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDC889E2071FD2100B11661 /* YFJNewCategoryHeadReusableView.xib */; };
+		EDDC88B02072005A00B11661 /* UILabel+YFJSetLabelFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88AF2072005A00B11661 /* UILabel+YFJSetLabelFont.m */; };
+		EDDC88B3207200A700B11661 /* UILabel+YFJSetuptext.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDC88B2207200A600B11661 /* UILabel+YFJSetuptext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363DBBB25F58CBDA27887C3F /* Pods-CzCategoryTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzCategoryTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CzCategoryTable/Pods-CzCategoryTable.debug.xcconfig"; sourceTree = "<group>"; };
+		5D14220865B09D75DA721ACB /* Pods-CzCategoryTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzCategoryTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-CzCategoryTable/Pods-CzCategoryTable.release.xcconfig"; sourceTree = "<group>"; };
+		B43461F7E8DD0B7D202E7E0E /* libPods-CzCategoryTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CzCategoryTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED032EC4207DD7F60096106F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ED032EC5207DDB1F0096106F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		ED032EC6207DDB200096106F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		ED032EC8207DDB7F0096106F /* UIButton+EXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EXT.h"; sourceTree = "<group>"; };
+		ED032EC9207DDB7F0096106F /* UIButton+EXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EXT.m"; sourceTree = "<group>"; };
 		EDDC884A2071FC5A00B11661 /* CzCategoryTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CzCategoryTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDC884D2071FC5A00B11661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDDC884E2071FC5A00B11661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +81,35 @@
 		EDDC88702071FC5B00B11661 /* CzCategoryTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzCategoryTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDC88742071FC5B00B11661 /* CzCategoryTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CzCategoryTableUITests.m; sourceTree = "<group>"; };
 		EDDC88762071FC5B00B11661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDC88842071FD2100B11661 /* YFJNewBrandListVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewBrandListVc.h; sourceTree = "<group>"; };
+		EDDC88852071FD2100B11661 /* YFJNewBrandListVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewBrandListVc.m; sourceTree = "<group>"; };
+		EDDC88862071FD2100B11661 /* YFJNewBrandListVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFJNewBrandListVc.xib; sourceTree = "<group>"; };
+		EDDC88872071FD2100B11661 /* YFJNewCategoryVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewCategoryVc.h; sourceTree = "<group>"; };
+		EDDC88882071FD2100B11661 /* YFJNewCategoryVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewCategoryVc.m; sourceTree = "<group>"; };
+		EDDC88892071FD2100B11661 /* YFJNewCategoryVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFJNewCategoryVc.xib; sourceTree = "<group>"; };
+		EDDC888A2071FD2100B11661 /* YFJNewSortVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewSortVc.h; sourceTree = "<group>"; };
+		EDDC888B2071FD2100B11661 /* YFJNewSortVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewSortVc.m; sourceTree = "<group>"; };
+		EDDC888C2071FD2100B11661 /* YFJNewSortVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFJNewSortVc.xib; sourceTree = "<group>"; };
+		EDDC888F2071FD2100B11661 /* MJNIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNIndexView.h; sourceTree = "<group>"; };
+		EDDC88902071FD2100B11661 /* MJNIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNIndexView.m; sourceTree = "<group>"; };
+		EDDC88912071FD2100B11661 /* YFJNewBrandHeadListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewBrandHeadListCell.h; sourceTree = "<group>"; };
+		EDDC88922071FD2100B11661 /* YFJNewBrandHeadListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewBrandHeadListCell.m; sourceTree = "<group>"; };
+		EDDC88932071FD2100B11661 /* YFJNewBrandListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewBrandListCell.h; sourceTree = "<group>"; };
+		EDDC88942071FD2100B11661 /* YFJNewBrandListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewBrandListCell.m; sourceTree = "<group>"; };
+		EDDC88952071FD2100B11661 /* YFJNewBrandListCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewBrandListCollectionCell.h; sourceTree = "<group>"; };
+		EDDC88962071FD2100B11661 /* YFJNewBrandListCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewBrandListCollectionCell.m; sourceTree = "<group>"; };
+		EDDC88972071FD2100B11661 /* YFJNewBrandSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewBrandSectionHeadView.h; sourceTree = "<group>"; };
+		EDDC88982071FD2100B11661 /* YFJNewBrandSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewBrandSectionHeadView.m; sourceTree = "<group>"; };
+		EDDC88992071FD2100B11661 /* YFJNewCategoryCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewCategoryCollectionCell.h; sourceTree = "<group>"; };
+		EDDC889A2071FD2100B11661 /* YFJNewCategoryCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewCategoryCollectionCell.m; sourceTree = "<group>"; };
+		EDDC889B2071FD2100B11661 /* YFJNewCategoryCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFJNewCategoryCollectionCell.xib; sourceTree = "<group>"; };
+		EDDC889C2071FD2100B11661 /* YFJNewCategoryHeadReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJNewCategoryHeadReusableView.h; sourceTree = "<group>"; };
+		EDDC889D2071FD2100B11661 /* YFJNewCategoryHeadReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJNewCategoryHeadReusableView.m; sourceTree = "<group>"; };
+		EDDC889E2071FD2100B11661 /* YFJNewCategoryHeadReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFJNewCategoryHeadReusableView.xib; sourceTree = "<group>"; };
+		EDDC88AE2072005A00B11661 /* UILabel+YFJSetLabelFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YFJSetLabelFont.h"; sourceTree = "<group>"; };
+		EDDC88AF2072005A00B11661 /* UILabel+YFJSetLabelFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YFJSetLabelFont.m"; sourceTree = "<group>"; };
+		EDDC88B1207200A600B11661 /* UILabel+YFJSetuptext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YFJSetuptext.h"; sourceTree = "<group>"; };
+		EDDC88B2207200A600B11661 /* UILabel+YFJSetuptext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YFJSetuptext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B4A433422DF2BACDBFF82 /* libPods-CzCategoryTable.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +138,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		870270C1A4D1A2A71C48AE13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363DBBB25F58CBDA27887C3F /* Pods-CzCategoryTable.debug.xcconfig */,
+				5D14220865B09D75DA721ACB /* Pods-CzCategoryTable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5BECFF69BD6974FE9F9EA2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43461F7E8DD0B7D202E7E0E /* libPods-CzCategoryTable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDDC88412071FC5A00B11661 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +162,8 @@
 				EDDC88682071FC5B00B11661 /* CzCategoryTableTests */,
 				EDDC88732071FC5B00B11661 /* CzCategoryTableUITests */,
 				EDDC884B2071FC5A00B11661 /* Products */,
+				870270C1A4D1A2A71C48AE13 /* Pods */,
+				B5BECFF69BD6974FE9F9EA2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +180,13 @@
 		EDDC884C2071FC5A00B11661 /* CzCategoryTable */ = {
 			isa = PBXGroup;
 			children = (
+				EDDC88822071FD2100B11661 /* NewSort(新分类) */,
 				EDDC884D2071FC5A00B11661 /* AppDelegate.h */,
 				EDDC884E2071FC5A00B11661 /* AppDelegate.m */,
+				EDDC88B1207200A600B11661 /* UILabel+YFJSetuptext.h */,
+				EDDC88B2207200A600B11661 /* UILabel+YFJSetuptext.m */,
+				EDDC88AE2072005A00B11661 /* UILabel+YFJSetLabelFont.h */,
+				EDDC88AF2072005A00B11661 /* UILabel+YFJSetLabelFont.m */,
 				EDDC88502071FC5A00B11661 /* ViewController.h */,
 				EDDC88512071FC5A00B11661 /* ViewController.m */,
 				EDDC88532071FC5A00B11661 /* Main.storyboard */,
@@ -112,6 +194,11 @@
 				EDDC885B2071FC5A00B11661 /* LaunchScreen.storyboard */,
 				EDDC885E2071FC5A00B11661 /* Info.plist */,
 				EDDC885F2071FC5A00B11661 /* main.m */,
+				ED032EC6207DDB200096106F /* UIView+Frame.h */,
+				ED032EC5207DDB1F0096106F /* UIView+Frame.m */,
+				ED032EC8207DDB7F0096106F /* UIButton+EXT.h */,
+				ED032EC9207DDB7F0096106F /* UIButton+EXT.m */,
+				ED032EC4207DD7F60096106F /* PrefixHeader.pch */,
 				EDDC88562071FC5A00B11661 /* CzCategoryTable.xcdatamodeld */,
 			);
 			path = CzCategoryTable;
@@ -135,6 +222,62 @@
 			path = CzCategoryTableUITests;
 			sourceTree = "<group>";
 		};
+		EDDC88822071FD2100B11661 /* NewSort(新分类) */ = {
+			isa = PBXGroup;
+			children = (
+				EDDC88832071FD2100B11661 /* Controller */,
+				EDDC888D2071FD2100B11661 /* Model */,
+				EDDC888E2071FD2100B11661 /* View */,
+			);
+			path = "NewSort(新分类)";
+			sourceTree = SOURCE_ROOT;
+		};
+		EDDC88832071FD2100B11661 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDDC88842071FD2100B11661 /* YFJNewBrandListVc.h */,
+				EDDC88852071FD2100B11661 /* YFJNewBrandListVc.m */,
+				EDDC88862071FD2100B11661 /* YFJNewBrandListVc.xib */,
+				EDDC88872071FD2100B11661 /* YFJNewCategoryVc.h */,
+				EDDC88882071FD2100B11661 /* YFJNewCategoryVc.m */,
+				EDDC88892071FD2100B11661 /* YFJNewCategoryVc.xib */,
+				EDDC888A2071FD2100B11661 /* YFJNewSortVc.h */,
+				EDDC888B2071FD2100B11661 /* YFJNewSortVc.m */,
+				EDDC888C2071FD2100B11661 /* YFJNewSortVc.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EDDC888D2071FD2100B11661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDDC888E2071FD2100B11661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDDC888F2071FD2100B11661 /* MJNIndexView.h */,
+				EDDC88902071FD2100B11661 /* MJNIndexView.m */,
+				EDDC88912071FD2100B11661 /* YFJNewBrandHeadListCell.h */,
+				EDDC88922071FD2100B11661 /* YFJNewBrandHeadListCell.m */,
+				EDDC88932071FD2100B11661 /* YFJNewBrandListCell.h */,
+				EDDC88942071FD2100B11661 /* YFJNewBrandListCell.m */,
+				EDDC88952071FD2100B11661 /* YFJNewBrandListCollectionCell.h */,
+				EDDC88962071FD2100B11661 /* YFJNewBrandListCollectionCell.m */,
+				EDDC88972071FD2100B11661 /* YFJNewBrandSectionHeadView.h */,
+				EDDC88982071FD2100B11661 /* YFJNewBrandSectionHeadView.m */,
+				EDDC88992071FD2100B11661 /* YFJNewCategoryCollectionCell.h */,
+				EDDC889A2071FD2100B11661 /* YFJNewCategoryCollectionCell.m */,
+				EDDC889B2071FD2100B11661 /* YFJNewCategoryCollectionCell.xib */,
+				EDDC889C2071FD2100B11661 /* YFJNewCategoryHeadReusableView.h */,
+				EDDC889D2071FD2100B11661 /* YFJNewCategoryHeadReusableView.m */,
+				EDDC889E2071FD2100B11661 /* YFJNewCategoryHeadReusableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDC88792071FC5B00B11661 /* Build configuration list for PBXNativeTarget "CzCategoryTable" */;
 			buildPhases = (
+				AEBFDE6E5BBBC92B3C835CD0 /* [CP] Check Pods Manifest.lock */,
 				EDDC88462071FC5A00B11661 /* Sources */,
 				EDDC88472071FC5A00B11661 /* Frameworks */,
 				EDDC88482071FC5A00B11661 /* Resources */,
+				603036F2AB258AAE454D52B7 /* [CP] Embed Pods Frameworks */,
+				117F5CAA83237FA1F36AA1BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,8 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDC885D2071FC5A00B11661 /* LaunchScreen.storyboard in Resources */,
+				EDDC88AB2071FD2100B11661 /* YFJNewCategoryCollectionCell.xib in Resources */,
+				EDDC88A22071FD2100B11661 /* YFJNewCategoryVc.xib in Resources */,
+				EDDC88A02071FD2100B11661 /* YFJNewBrandListVc.xib in Resources */,
+				EDDC88AD2071FD2100B11661 /* YFJNewCategoryHeadReusableView.xib in Resources */,
 				EDDC885A2071FC5A00B11661 /* Assets.xcassets in Resources */,
 				EDDC88552071FC5A00B11661 /* Main.storyboard in Resources */,
+				EDDC88A42071FD2100B11661 /* YFJNewSortVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +414,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		117F5CAA83237FA1F36AA1BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CzCategoryTable/Pods-CzCategoryTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603036F2AB258AAE454D52B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CzCategoryTable/Pods-CzCategoryTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBFDE6E5BBBC92B3C835CD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CzCategoryTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDDC88462071FC5A00B11661 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDC88A82071FD2100B11661 /* YFJNewBrandListCollectionCell.m in Sources */,
 				EDDC88522071FC5A00B11661 /* ViewController.m in Sources */,
+				EDDC88AA2071FD2100B11661 /* YFJNewCategoryCollectionCell.m in Sources */,
+				EDDC88A52071FD2100B11661 /* MJNIndexView.m in Sources */,
+				EDDC88A72071FD2100B11661 /* YFJNewBrandListCell.m in Sources */,
+				EDDC88A32071FD2100B11661 /* YFJNewSortVc.m in Sources */,
 				EDDC88582071FC5A00B11661 /* CzCategoryTable.xcdatamodeld in Sources */,
+				EDDC88A62071FD2100B11661 /* YFJNewBrandHeadListCell.m in Sources */,
+				EDDC889F2071FD2100B11661 /* YFJNewBrandListVc.m in Sources */,
+				EDDC88B3207200A700B11661 /* UILabel+YFJSetuptext.m in Sources */,
 				EDDC88602071FC5A00B11661 /* main.m in Sources */,
+				EDDC88AC2071FD2100B11661 /* YFJNewCategoryHeadReusableView.m in Sources */,
+				EDDC88B02072005A00B11661 /* UILabel+YFJSetLabelFont.m in Sources */,
+				ED032ECA207DDB7F0096106F /* UIButton+EXT.m in Sources */,
 				EDDC884F2071FC5A00B11661 /* AppDelegate.m in Sources */,
+				ED032EC7207DDB200096106F /* UIView+Frame.m in Sources */,
+				EDDC88A12071FD2100B11661 /* YFJNewCategoryVc.m in Sources */,
+				EDDC88A92071FD2100B11661 /* YFJNewBrandSectionHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,10 +648,13 @@
 		};
 		EDDC887A2071FC5B00B11661 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363DBBB25F58CBDA27887C3F /* Pods-CzCategoryTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SREDFR65ZT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzCategoryTable/PrefixHeader.pch";
 				INFOPLIST_FILE = CzCategoryTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yifanjie.CzCategoryTable;
@@ -446,10 +665,13 @@
 		};
 		EDDC887B2071FC5B00B11661 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D14220865B09D75DA721ACB /* Pods-CzCategoryTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SREDFR65ZT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzCategoryTable/PrefixHeader.pch";
 				INFOPLIST_FILE = CzCategoryTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yifanjie.CzCategoryTable;

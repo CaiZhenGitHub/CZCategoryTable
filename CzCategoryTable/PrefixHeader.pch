@@ -1,0 +1,173 @@
+//
+//  PrefixHeader.pch
+//  一番街
+//
+//  Created by caizhen on 17/1/15.
+//  Copyright © 2017年 caizhen. All rights reserved.
+//
+
+/** 公用头文件 **/
+#import "UIView+Frame.h"
+#import <Masonry.h>
+
+#define  YFJUserDefaults [NSUserDefaults standardUserDefaults]
+#define YFJToken [YFJUserDefaults valueForKey:@"Token"]
+//开启异步线程
+#define YFJDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock) dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);
+//通知
+#define NOTIF_ADD(n, f)     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(f) name:n object:nil]
+#define NOTIF_POST(n, o)    [[NSNotificationCenter defaultCenter] postNotificationName:n object:o]
+#define NOTIF_REMV()        [[NSNotificationCenter defaultCenter] removeObserver:self]
+
+//当前版本号
+#define YFJVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+/** 当前手机系统版本*/
+#define YFJiOS_Version [UIDevice currentDevice].systemVersion
+
+#define KEY @"s,546?asf&kd)ssj"
+
+#define IV @"val>sld^%$64{dsf"
+
+/** 颜色 **/
+// 随机颜色
+#define YFJRandomColor YFJColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+
+#define YFJColor(r,g,b) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:1.0]
+
+/**计算等比长宽*/
+#define WCX_SCALE_SCREEN_Width(winthNumber)  (YFJScreenW*((winthNumber)/(375.0)))
+#define WCX_SCALE_SCREEN_Height(winthNumber)  (YFJScreenH*((winthNumber)/(667.0)))
+
+#define YFJImageContentMode UIViewContentModeScaleAspectFit;
+/**字体细*/
+#define YFJFontName @"STHeitiSC-Light"
+
+#define YFJFontNameMedium [YFJiOS_Version floatValue]>=9.0?@"PingFangSC-Medium":@"STHeitiSC-Light"
+
+#define YFJFontNameRegular [YFJiOS_Version floatValue]>=9.0?@"PingFangSC-Regular":@"STHeitiSC-Light"
+
+#define YFJFontNameLight [YFJiOS_Version floatValue]>=9.0?@"PingFangSC-Light":@"STHeitiSC-Light"
+
+#define YFJFontSemibold @"PingFangSC-Semibold"
+// 分割线颜色
+#define YFJLineColor YFJColor(228, 228, 228)
+// 背景颜色
+#define YFJBgColor YFJColor(255,255,255)
+// 主色调
+#define YFJMainColor YFJColor(255,113,152)
+//无数据背景 #EEEEEE
+#define YFJGrayColor YFJColor(238,238,238)
+/** title颜色 #333333 */
+#define YFJTitleColor YFJColor(51,51,51)
+/** 标签颜色 #666666 */
+#define YFJTagColor YFJColor(102,102,102)
+/**副标题颜色 #999999 */
+#define YFJNextTitleColor YFJColor(153,153,153)
+/**评论背景色* #f9f9fb */
+#define YFJNextReviewColor YFJColor(249, 249, 251)
+/** 屏幕 **/
+#define YFJScreenW [UIScreen mainScreen].bounds.size.width
+#define YFJScreenH [UIScreen mainScreen].bounds.size.height
+/**主屏幕*/
+#define kWindow [[UIApplication sharedApplication].delegate window]
+
+
+/** 状态栏高度 */
+#define YFJStatusHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+/** 导航栏高度 */
+#define YFJNavigationHeight self.navigationController.navigationBar.frame.size.height
+/**tabBar高度*/
+#define YFJTabBarHeight self.tabBarController.tabBar.frame.size.height
+
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6PlusBigMode ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//**友盟插屏关键字*/
+#define YFJHomePopView @"home"
+#define YFJMePopView @"me"
+#define YFJCategoryPopView @"category"
+#define YFJRecommandPopView @"recommand"
+#define YFJCartPopView @"cart"
+/**商品默认图片*/
+#define YFJDefaultImage [UIImage imageNamed:@"normalproduct_defaultimage_200x200"]
+/**新品和hot商品图片*/
+#define YFJHomeHotNewpro_240x240 [UIImage imageNamed:@"home_hot&newpro_240x240@2x"]
+/**分类默认图片*/
+#define YFJCategoryDefaultImage [UIImage imageNamed:@"category_defaultimage_180180"]
+/**评论列表*/
+#define YFJCommentlistDefaultImage [UIImage imageNamed:@"commentlist_defaultimage_128x128"]
+/**计算产品默认图片*/
+#define YFJAcountproductDefaultImage [UIImage imageNamed:@"acountproduct_defaultimage_144x144"]
+/**商品详情*/
+#define YFJProductDetailsDefaultImage [UIImage imageNamed:@"productdetails_defaultimage_750x750"]
+/**番觅占位图片*/
+#define YFJrecommendDefaultImage [UIImage imageNamed:@"fanmi_image_defalt"]
+/**分享图片*/
+#define YFJShareDefautImage [UIImage imageNamed:@"yifanjie_Logo"]
+
+/**包邮包税图标*/
+//包税
+#define YFJtagImage1 [UIImage imageNamed:@"detail_tax"]
+//包邮
+#define YFJtagImage2 [UIImage imageNamed:@"detail_ship"]
+
+#define YFJtagImage3 [UIImage imageNamed:@"detail_ship_tax"]
+
+/**产品实拍*/
+#define YFJProductDetailsRealshotImage [UIImage imageNamed:@"productdetails_realshot_750x544"]
+
+/**产品图文*/
+#define YFJProductProductDetail_PlaceImage [UIImage imageNamed:@"productdetails_defaultimage_375x252"]
+
+
+/**获取沙盒Document*/
+#define PathDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+/**获取沙盒Cache*/
+#define PathCache [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
+/**GCD代码只执行一次*/
+#define kDISPATCH_ONCE_BLOCK(onceBlock) static dispatch_once_t onceToken; dispatch_once(&onceToken, onceBlock);
+
+/**在主线程上运行*/
+#define kDISPATCH_MAIN_THREAD(mainQueueBlock) dispatch_async(dispatch_get_main_queue(), mainQueueBlock);
+/**开启异步线程*/
+#define kDISPATCH_GLOBAL_QUEUE_DEFAULT(globalQueueBlock)dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), globalQueueBlocl);
+
+
+/** 当前应用版本*/
+#define YFJAppVersion [NSBundle mainBundle].infoDictionary[(__bridge NSString *)kCFBundleVersionKey]
+
+#define YFJFunc YFJLog(@"%s",__func__);
+
+
+/*修改textField的placeholder的字体颜色、大小
+ [textField setValue:[UIColor redColor] forKeyPath:@"_placeholderLabel.textColor"];
+ [textField setValue:[UIFont boldSystemFontOfSize:16] forKeyPath:@"_placeholderLabel.font"];
+
+ */
+
+
+/** 自定义Log **/
+
+
+
+#ifdef DEBUG
+
+#define YFJLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define YFJLog(format, ...)
+// 3个点代表可变参数
+
+#endif
+
+/** block弱引用 **/
+#define YFJWeakSelf __weak typeof(self) weakSelf = self;
+
+/** retainCout **/
+#define YFJRetainCout YFJLog(@"%d",CFGetRetainCount((__bridge CFTypeRef)(self)));
+
